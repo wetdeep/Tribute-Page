@@ -1,0 +1,74 @@
+/*Global CSS*/
+html{
+  height:100%; /* whole height of content?*/
+}
+body{
+  font-family:'Dancing Script', cursive; 
+  font-size: 30px;
+  height:100%;
+}
+
+/*local CSS*/
+header{
+  background-image:url(https://www.theparisreview.org/il/db3335f535/large/Jorge-Luis-Borges.jpg);
+ min-height:100%; /* will be at least 100% height */
+ background-position: 50% 50%; 
+ background-repeat: no-repeat; /*need to find out the explicit use*/
+ background-size: cover; /*e image will fill the browser full pack*/
+ padding-right:150px; 
+ padding-top: 450px; /*padding to the top*/
+ padding-left:20px;
+ padding-bottom: 5px;
+  }
+header h2 {
+  font-size: 0.9em;
+  color: /*#F5F5F5*/#F0FFFF;
+  /*display: inline; */ /*not needed so far*/
+  line-height: 150%;
+}
+header h2.name{
+  color:#EBEBEB;
+  font-size:1.2em;
+}
+
+#bio {
+  padding:60px 0;
+  margin-bottom:80px;
+  min-height:100%;
+  /*background-color:#F1F1F1;*/
+}
+
+#bio h1{
+  
+  font-family: 'Londrina Solid', cursive;
+  font-size: 2em;
+  font-weight:200;
+}
+
+#bio .story{
+  padding-left: 5px;
+  font-family: 'Droid Serif', serif;
+  font-size: 0.5em;
+  /*font-weight:200;*/
+   line-height: 160%;
+}
+#bio .initial{
+  font-family:'Dancing Script', cursive; 
+  font-size: 2em;
+}
+
+#bio .books{
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 0.58em;
+  /*line-height: 150%;*/
+}
+footer{
+    font-family: 'Droid Serif', serif;
+    text-align: center;
+    font-size: 0.45em;
+     /*color: #25B39B;*/
+    /*background-color:#F1F1F1;*/
+   /* padding-top:100;*/
+}
+ 
+
